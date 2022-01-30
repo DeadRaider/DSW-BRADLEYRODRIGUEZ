@@ -1,0 +1,18 @@
+nav{
+background-color: rgb(188, 245, 240);
+}
+section{
+    background-color: rgb(188, 245, 240);
+    grid-column: 1/5;
+}
+aside{
+    background-color: rgb(180, 204, 250);
+    grid-column: 5/6;
+}
+footer{
+    background-color: rgb(180, 204, 250);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
